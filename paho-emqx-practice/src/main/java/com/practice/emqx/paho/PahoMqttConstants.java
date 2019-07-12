@@ -6,8 +6,8 @@ package com.practice.emqx.paho;
  */
 public class PahoMqttConstants {
 
-//        public static final String EMQX_SERVER_HOST = "tcp://emq-beta.ufotosoft.com:1883";
-    public static final String EMQX_SERVER_HOST = "tcp://dev.ufotosoft.com:1883";
+    public static final String EMQX_SERVER_HOST = "tcp://emq-beta.ufotosoft.com:1883";
+//    public static final String EMQX_SERVER_HOST = "tcp://dev.ufotosoft.com:1883";
     //    public static final String EMQX_SERVER_HOST = "tcp://54.85.214.136:1883";
 //    public static final String EMQX_SERVER_HOST = "tcp://3.81.161.192:1883";
     //****** prod **********

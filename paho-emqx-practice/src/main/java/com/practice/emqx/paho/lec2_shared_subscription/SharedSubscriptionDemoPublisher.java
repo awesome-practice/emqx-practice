@@ -20,7 +20,7 @@ public class SharedSubscriptionDemoPublisher {
 
 
     public void demo() throws MqttException, InterruptedException {
-        MqttConnectOptions options = MqttUtil.getOptions();
+        MqttConnectOptions options = MqttUtil.buildOptions();
         // persistence for qos>0
 //        MqttClientPersistence persistence = new MqttDefaultFilePersistence(MqttConstants.PERSISTENCE_FILE_DIR);
         MqttClientPersistence persistence = new MemoryPersistence();

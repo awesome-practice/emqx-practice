@@ -30,7 +30,7 @@ public class SharedSubscriptionDemoSubscriber {
     }
 
     private MqttClient doSubscribe(String clientId, String topic) throws MqttException {
-        MqttConnectOptions options = MqttUtil.getOptions();
+        MqttConnectOptions options = MqttUtil.buildOptions();
         // persistence for qos>0
 //        MqttClientPersistence persistence = new MqttDefaultFilePersistence(MqttConstants.PERSISTENCE_FILE_DIR);
         MqttClientPersistence persistence = new MemoryPersistence();
